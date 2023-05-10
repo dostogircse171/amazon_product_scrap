@@ -4,3 +4,5 @@ djangorestframework==3.14.0
 selenium==4.9.1
 pytz==2023.3
 sqlparse==0.4.4
+celery==5.2.7
+requests==2.30.0
