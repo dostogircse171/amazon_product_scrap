@@ -41,7 +41,7 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 ```
--Here you will need to provide username,email(optional),password etc...
+*Here you will need to provide username,email(optional),password etc...
 
 7. Start the development server:
 
