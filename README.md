@@ -114,7 +114,7 @@ celery -A amazon_product_scraper beat --loglevel=info
 Make sure to run the commands in separate terminal windows, as they need to run concurrently. The first command starts the Celery worker, which processes the tasks. The second command starts the Celery beat, which schedules tasks to be executed by the worker at specified intervals. In your case, the `trigger_scraper` task will be executed every 24 hours.
 
 ## Run Tests
-We define some basic Unit tests to check our scrap functions, DB schema and Api endpoints. Which can be test using flowing comand
+We define some basic Unit tests to check our scrap functions, DB schema and Api endpoints. Which can be test using flowing command.
 ```python
 #Run all tests
 python manage.py test
