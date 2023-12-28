@@ -1,4 +1,4 @@
-# Coding Scraper Challenge (Amazon Product Scraper)
+# Amazon Product Scraper using Django and Selenium
 
 This project is a Django-based web application that scrapes product data from Amazon's search results using Selenium. It stores the scraped data in an SQLite database and provides an API to access the data and an endpoint to scrap data when hit the endpoint.
 
